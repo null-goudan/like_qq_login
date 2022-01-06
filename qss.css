@@ -1,0 +1,140 @@
+QWidget#widget{
+    min-height: 330px;
+    min-width: 430px;
+    background-color: white;
+    border-radius: 5%;
+}
+QComboBox#UserName{
+    min-height: 35px;
+    min-width: 235px;
+    border:none;
+    border-bottom: 1px solid rgb(200,200,200);
+    font: 18px "微软雅黑";
+    font-weight: 3px;
+}
+QComboBox#UserName::drop-down{
+    
+	background-image: url(:/image/comboBox/drop-down.png);
+    width: 25px;
+}
+QComboBox#UserName::drop-down:hover{
+    background-image: url(:/image/comboBox/drop-down-hover.png);
+    width: 25px;
+}
+QComboBox#UserName::drop-down:checked{
+    background-image: url(:/image/comboBox/drop-up.png);
+    width: 25px;
+}
+QComboBox#UserName:hover{
+    min-height: 35px;
+    min-width: 235px;
+    border:none;
+    border-bottom: 1px solid rgb(175,175,175);
+    font: 18px "微软雅黑";
+    font-weight: 3px;
+}
+QComboBox#UserName:focus{
+    min-height: 35px;
+    min-width: 235px;
+    border:none;
+    border-bottom: 1px solid rgb(5,186,251);
+    font: 18px "微软雅黑";
+    font-weight: 3px;
+}
+QLineEdit#PassWord{
+    min-height: 35px;
+    min-width: 235px;
+    border:none;
+    border-bottom: 1px solid  rgb(200,200,200);
+    font:  18px "微软雅黑";
+    font-weight: 3px;
+}
+QLineEdit#PassWord:hover{
+    min-height: 35px;
+    min-width: 235px;
+    border:none;
+    border-bottom: 1px solid  rgb(175,175,175);
+    font:  18px "微软雅黑";
+    font-weight: 3px;
+}
+QLineEdit#PassWord:focus{
+    min-height: 35px;
+    min-width: 235px;
+    border:none;
+    border-bottom: 1px solid  rgb(5,186,251);
+    font:  18px "微软雅黑";
+    font-weight: 3px;
+}
+QPushButton#LoginBtn{
+    min-height: 28px;
+    min-width: 235px;
+    background-color: rgb(5,186,251);
+    border-radius: 2px;
+    color: white;
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+QPushButton#RegisterNew
+{
+    color: rgb(200,200,200);
+    background-color: white;
+    border: white;
+}
+QPushButton#FindBackPass
+{
+    color: rgb(200,200,200);
+    background-color: white;
+    border: white;
+}
+QPushButton#CloseBtn{
+    min-height: 20px;
+    min-width: 20px;
+    background-color: rgb(5,186,251);
+    border: white;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+QPushButton#CloseBtn:hover{
+    min-height: 20px;
+    min-width: 20px;
+    background-color: red;
+    border: white;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+QPushButton#MinxBtn{
+    min-height: 20px;
+    min-width: 20px;
+    background-color: rgb(5,186,251);
+    border: white;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+QPushButton#MinxBtn:hover{
+    min-height: 20px;
+    min-width: 20px;
+    background-color: rgb(200,200,200);
+    border: white;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+QCheckBox{
+    color: rgb(200,200,200);
+}
+QLabel#Logo{
+    min-height: 120px;
+    min-width: 430px;
+    background-color: rgb(5,186,251);
+    text-align: left;
+}
+QLabel#HeadPic{
+    min-height: 80px;
+    min-width: 80px;
+    border-radius: 40px;
+    border: 1px white;
+    background-color: white;
+}

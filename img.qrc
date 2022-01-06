@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>close-bold.png</file>
+        <file>minus-bold.png</file>
+        <file>comboBox/drop-down.png</file>
+        <file>comboBox/drop-down-hover.png</file>
+        <file>comboBox/drop-down-on.png</file>
+        <file>comboBox/drop-down-on-hover.png</file>
+    </qresource>
+</RCC>
